@@ -8,11 +8,11 @@ function Body() {
     const [num, setNum] = useState();
 
     function onMin(event) {
-        setMin(Number(event.target.value));
+        setMin(Number.parseInt(event.target.value));
     }
 
     function onMax(event) {
-        setMax(Number(event.target.value));
+        setMax(Number.parseInt(event.target.value));
     }
 
     function getRandomNumber(min, max) {
