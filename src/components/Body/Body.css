@@ -40,7 +40,8 @@
     margin: 0 auto;
     border-width: 1.5px;
     color: rgb(252, 123, 252);
-    width: 150px;
+    width: 200px;
+    height: 20px;
 }
 
 .body__text-res {
